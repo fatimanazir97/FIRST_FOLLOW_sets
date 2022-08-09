@@ -23,13 +23,9 @@ F → ( E ) | id
 of one or more capital letters {A-Z}+
 4. The right hand side of any production is restricted to at max 10 literals.
 5. The terminals could be combination of lowercase letters or any numbers or any operator(including
-; . , characters) or any bracket. For now, you can assume two character operators like <<
->> −− ++ && == etc. are not part of your productions. So terminals will be:
-{a-z}+ | {0-9}+ | ε | any operator | any bracket
-
+; . , characters) or any bracket. For now, you can assume two character operators like << >> −− ++ && == etc. are not part of your productions. So terminals will be: {a-z}+ | {0-9}+ | ε | any operator | any bracket
 6. Your program should output two txt files. The name of the output files should be RollNum-
 ber first.txt(containing all first sets) and RollNumber follow.txt(containing all follow sets).
-
 7. The format of your output files should be as follows:
 • The first item of each line is a non terminal whose first or follow set appear in the same
 line such that each item is tab separated.
